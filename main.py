@@ -3,6 +3,7 @@ import json
 import hashlib
 import base64
 import re
+from typing import Optional
 import httpx
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import JSONResponse
